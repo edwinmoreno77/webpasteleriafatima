@@ -1,0 +1,530 @@
+
+/* SECCION DE NAVBAR */
+
+
+.navbar-brand {
+    margin-left: 0.1rem;
+    
+    
+} 
+ 
+.navbar-brand img {
+    width: 10%; 
+    width: 3.6rem;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+} 
+
+.navbar-brand:hover img{
+    transform: scale(1.4);
+    
+} 
+
+
+/* SECCION DE NAVBAR */
+
+
+
+
+
+/* IMAGENES DE CAROUSEL */
+
+.mt-carousel{
+    margin-top: 6rem;
+}
+
+.img-carousel-1 img {
+
+     width:17.5%;
+    
+}
+
+.img-carousel-2 img {
+
+     width:30%;
+   
+}
+
+.img-carousel-3 img {
+
+     width:26%;
+     
+}
+
+
+/* IMAGENES DE CAROUSEL */
+
+
+
+
+
+/* IMAGENES DE SERVICIOS */
+
+
+@media(min-width: 1200px){
+    
+    .img-servicios-1 img {
+        width: 50%;
+        margin-left: 6rem;
+        transform: scale(1);
+        transition: 1.5s ease-in-out;
+    }
+    .img-servicios-1:hover img{
+        transform: scale(1.2);
+        
+    }
+
+
+    /* .img-servicios-1 img {
+        width: 50%;
+        margin-left: 6rem;
+       
+    } */
+
+}
+
+
+
+
+@media(min-width: 1200px){
+
+    .img-servicios-2 img {
+        width: 35%;
+        transform: scale(1);
+        transition: 1.5s ease-in-out;
+    }
+    .img-servicios-2:hover img{
+        transform: scale(1.2);
+        
+    }
+
+
+
+    /* .img-servicios-2 img{
+        width: 41%;
+        
+    }  */
+
+} 
+
+
+
+@media(min-width: 1200px){
+
+    .img-servicios-3 img {
+        width: 56%;
+        margin-left: 8rem;
+        transform: scale(1);
+        transition: 1.5s ease-in-out;
+    }
+    .img-servicios-3:hover img{
+        transform: scale(1.3);
+        
+    }
+
+    /* .img-servicios-3 img{
+        width: 45%;
+        margin-left: 8rem; 
+    } */
+
+}
+
+
+/* IMAGENES DE SERVICIOS */
+
+
+
+
+
+
+/* ANIMACIONES DE ICONOS  */
+
+.icon {
+    display: inline-block;
+    font-size: 16px;
+    animation: float 5s ease-in-out infinite;
+
+}
+
+.instagram-icon {
+    animation-delay: 1s;
+
+}
+.facebook-icon {
+    animation-delay: 2s;
+
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+     50%{
+        transform: translateY(-15px);
+    }
+     100%{
+        transform: translateY(0);
+    }
+}
+
+
+/* ANIMACIONES DE ICONOS  */
+
+
+
+
+
+
+
+/* IMAGENES DE GALERIA
+
+    estan comentadas las imagenes de galeria con la 
+    configuracion anterior a las animaciones.
+*/
+
+/* .img-galeria-1 img {
+    width: 50%;
+    
+}  */
+
+.img-galeria-1 img {
+    width: 60%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+.img-galeria-1:hover img{
+    transform: scale(1.5);
+    
+}
+
+@media(min-width: 768px){
+
+    .img-galeria-1 img {
+        width: 60%;
+        margin-top: 0rem;
+        margin-bottom: 5rem;
+        transform: scale(1);
+        transition: 0.8s ease-in-out;
+    }
+
+    .img-galeria-1:hover img{
+        transform: scale(1.5);
+    
+    }
+
+}
+
+/* .img-galeria-2 img {
+    width: 70%;
+    padding-top: 9rem;
+}  */
+
+.img-galeria-2 img {
+    width: 80%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+.img-galeria-2:hover img{
+    transform: scale(1.5);
+    
+}
+
+@media(min-width: 768px){
+
+    .img-galeria-2 img {
+        width: 85%;
+        margin-top: 5.8rem;
+        margin-bottom: 5rem;
+        transform: scale(1);
+        transition: 0.8s ease-in-out;
+    }
+
+    .img-galeria-2:hover img{
+        transform: scale(1.5);
+    
+    }
+
+}
+
+/* .img-galeria-3 img {
+    width: 80%;
+    padding-top: 3rem;
+}  */
+
+.img-galeria-3 img {
+    width: 90%;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+.img-galeria-3:hover img{
+    transform: scale(1.5);
+    
+}
+
+
+@media(min-width: 768px){
+
+    .img-galeria-3 img {
+        width: 95%;
+        margin-top: 8rem;
+        margin-bottom: 5rem;
+        transform: scale(1);
+        transition: 0.8s ease-in-out;
+    }
+
+    .img-galeria-3:hover img{
+        transform: scale(1.5);
+    
+    }
+
+}
+
+@media(min-width: 992px){
+
+    .img-galeria-3 img {
+        width: 95%;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        transform: scale(1);
+        transition: 0.8s ease-in-out;
+    }
+
+    .img-galeria-3:hover img{
+        transform: scale(1.5);
+    
+    }
+
+}
+
+.img-galeria-4 img {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+.img-galeria-4:hover img{
+    transform: scale(1.3);
+    
+}
+
+
+@media(min-width: 768px){
+
+    .img-galeria-4 img {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        transform: scale(1);
+        transition: 0.8s ease-in-out;
+    }
+
+    .img-galeria-4:hover img{
+        transform: scale(1.3);
+    
+    }
+
+}
+
+
+/* .img-galeria-5 img {
+    width: 80%;
+    padding-top: 5rem;
+}  */
+
+.img-galeria-5 img {
+    width: 80%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+.img-galeria-5:hover img{
+    transform: scale(1.5);
+    
+}
+
+
+@media(min-width: 768px){
+
+    .img-galeria-5 img {
+        width: 95%;
+        margin-top: 8.5rem;
+        margin-bottom: 5rem;
+        transform: scale(1);
+        transition: 0.8s ease-in-out;
+    }
+
+    .img-galeria-5:hover img{
+        transform: scale(1.5);
+    
+    }
+
+}
+
+
+.img-galeria-6 img {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+.img-galeria-6:hover img{
+    transform: scale(1.5);
+    
+}
+
+/* .img-galeria-7 img {
+    width: 75%;
+    padding-top: 4rem;
+}  */
+
+.img-galeria-7 img {
+    width: 75%;
+    margin-top: 7.2rem;
+    margin-bottom: 5rem;
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+.img-galeria-7:hover img{
+    transform: scale(1.5);
+    
+}
+/* 
+.img-galeria-8 img {
+    width: 75%;
+    padding-top: rem;
+}  */
+
+.img-galeria-8 img {
+    width: 75%;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+.img-galeria-8:hover img{
+    transform: scale(1.5);
+    
+}
+
+.img-galeria-9 img {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+.img-galeria-9:hover img{
+    transform: scale(1.3);
+    
+}
+
+@media(min-width: 992px){
+
+    .img-galeria-9 img {
+        margin-top: 1.5rem;
+        margin-bottom: 5rem;
+        transform: scale(1);
+        transition: 0.8s ease-in-out;
+    }
+
+    .img-galeria-9:hover img{
+        transform: scale(1.3);
+    
+    }
+
+}
+
+.img-galeria-10 img {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+.img-galeria-10:hover img{
+    transform: scale(1.3);
+    
+}
+
+/* IMAGENES DE GALERIA */
+
+
+
+
+
+
+
+
+/* SECCION TALLER */
+
+@media(min-width:768px) {
+    .img-talleres img {
+        width: 70%;
+        margin-left: 5rem;
+
+    }
+
+}
+
+@media(min-width:992px) {
+    .img-talleres img {
+        width: 70%;
+        margin-left: 0rem;
+
+    }
+
+}
+
+
+@media(min-width:1200px) {
+    .img-talleres img {
+        width: 70%;
+        /* margin-left: 10rem; */
+    }
+
+
+}
+
+.img-logo-taller img {
+    width: 12rem;
+    
+}
+.img-listaPrecios img {
+    width: 55%;
+
+}
+
+
+
+
+
+/* SECCION TALLER */
+
+
+
+
+/* SECCION FOOTER */
+
+
+/* .img-footer img{
+    width: 6rem;
+    
+} */
+
+.img-footer img {
+    width: 6rem;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.img-footer:hover img{
+    transform: scale(1.08);
+    
+}
+
+/* SECCION FOOTER */
+
+
