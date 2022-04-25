@@ -170,9 +170,39 @@
 
 /* ANIMACIONES DE ICONOS  */
 
+/*BACKGROUND*/
+
+.img-bg-navbar {
+    background-image: url('/asset-fatima/bg-navbar.svg');
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
 
 
+.img-bg-galeria {
+    background-image: url('/asset-fatima/bg-galeria.svg');
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
 
+.img-bg-talleres {
+    background-image: url('/asset-fatima/bg-talleres.svg');
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-bg-lista-precios {
+    background-image: url('/asset-fatima/bg-lista-precios.svg');
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*BACKGROUND*/
 
 
 
