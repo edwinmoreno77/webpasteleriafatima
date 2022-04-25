@@ -9,14 +9,13 @@
 } 
  
 .navbar-brand img {
-    width: 10%; 
-    width: 3.6rem;
+    width: 4.4rem;
     transform: scale(1);
     transition: 0.3s ease-in-out;
 } 
 
 .navbar-brand:hover img{
-    transform: scale(1.4);
+    transform: scale(1.35);
     
 } 
 
